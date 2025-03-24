@@ -1,0 +1,25 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 24px;
+  column-gap: 24px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+.gallery-item {
+  flex-basis: calc(33.333% - 10px);
+}
+
+.gallery-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} */
